@@ -1,0 +1,1356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a00ef6a761bc94d8cf75aada311636, type: 3}
+  m_Name: buildings
+  m_EditorClassIdentifier: 
+  house:
+  - id: 0
+    name: House
+    desc: Here goes a description.
+    prefabName: house
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 0
+    availableOnStart: 1
+    dependencies: []
+    settlersSupplied: 4
+  production:
+  - id: 1
+    name: Bonfire
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 1
+    dependencies:
+    - unlocksBuilding: 2
+      requiredMood: 30
+    - unlocksBuilding: 12
+      requiredMood: 90
+    - unlocksBuilding: 17
+      requiredMood: 0
+    - unlocksBuilding: 20
+      requiredMood: 40
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 1
+  - id: 2
+    name: Chicken farm
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 3
+      requiredMood: 30
+    - unlocksBuilding: 4
+      requiredMood: 90
+    - unlocksBuilding: 81
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 2
+  - id: 3
+    name: Rockstyle pillow and blanket
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 39
+      requiredMood: 30
+    - unlocksBuilding: 57
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 3
+  - id: 4
+    name: CFC
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 4
+  - id: 5
+    name: Forest
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 1
+    dependencies:
+    - unlocksBuilding: 6
+      requiredMood: 40
+    - unlocksBuilding: 8
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 5
+  - id: 6
+    name: Sawmill
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 7
+      requiredMood: 90
+    - unlocksBuilding: 11
+      requiredMood: 40
+    - unlocksBuilding: 31
+      requiredMood: 80
+    - unlocksBuilding: 37
+      requiredMood: 50
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 6
+  - id: 7
+    name: Toy Store
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 7
+  - id: 8
+    name: Field
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 9
+      requiredMood: 10
+    - unlocksBuilding: 10
+      requiredMood: 30
+    - unlocksBuilding: 50
+      requiredMood: 10
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 8
+  - id: 9
+    name: Goat farm
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 14
+      requiredMood: 30
+    - unlocksBuilding: 42
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 9
+  - id: 10
+    name: Vegetable plot
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 44
+      requiredMood: 60
+    - unlocksBuilding: 81
+      requiredMood: 50
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 10
+  - id: 11
+    name: Wheelmaker
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 13
+      requiredMood: 50
+    - unlocksBuilding: 49
+      requiredMood: 80
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 11
+  - id: 12
+    name: Sun clock
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 13
+      requiredMood: 90
+    - unlocksBuilding: 53
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 13
+    name: Rockbike
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 12
+  - id: 14
+    name: Weaver
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 15
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 13
+  - id: 15
+    name: Tailor
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 16
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 14
+  - id: 16
+    name: Clothes store
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 76
+      requiredMood: 80
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 15
+  - id: 17
+    name: Cave
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 18
+      requiredMood: 10
+    - unlocksBuilding: 21
+      requiredMood: 30
+    - unlocksBuilding: 22
+      requiredMood: 50
+    - unlocksBuilding: 25
+      requiredMood: 80
+    - unlocksBuilding: 28
+      requiredMood: 70
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 16
+  - id: 18
+    name: Strone mine
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 19
+      requiredMood: 90
+    - unlocksBuilding: 20
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 17
+  - id: 19
+    name: Stonehedge
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 20
+    name: Tool maker workshop
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 49
+      requiredMood: 90
+    - unlocksBuilding: 55
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 18
+  - id: 21
+    name: Coal mine
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 23
+      requiredMood: 0
+    - unlocksBuilding: 29
+      requiredMood: 0
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 19
+  - id: 22
+    name: Bronze mine
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 23
+      requiredMood: 0
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 20
+  - id: 23
+    name: Bronze smith
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 24
+      requiredMood: 50
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 21
+  - id: 24
+    name: Stable
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 27
+      requiredMood: 50
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 22
+  - id: 25
+    name: Gems mine
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 26
+      requiredMood: 30
+    - unlocksBuilding: 30
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 23
+  - id: 26
+    name: Mint
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 27
+      requiredMood: 10
+    - unlocksBuilding: 80
+      requiredMood: 80
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 24
+  - id: 27
+    name: Market
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 52
+      requiredMood: 50
+    - unlocksBuilding: 57
+      requiredMood: 90
+    - unlocksBuilding: 64
+      requiredMood: 50
+    - unlocksBuilding: 67
+      requiredMood: 70
+    - unlocksBuilding: 83
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 25
+  - id: 28
+    name: Iron mine
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 29
+      requiredMood: 0
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 26
+  - id: 29
+    name: Iron smith
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 32
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 27
+  - id: 30
+    name: Cliffany
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 28
+  - id: 31
+    name: Paper maker
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 54
+      requiredMood: 0
+    - unlocksBuilding: 60
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 29
+  - id: 32
+    name: Steel smithy
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 65
+      requiredMood: 90
+    - unlocksBuilding: 66
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 33
+    name: River
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 1
+    dependencies:
+    - unlocksBuilding: 34
+      requiredMood: 80
+    - unlocksBuilding: 35
+      requiredMood: 40
+    - unlocksBuilding: 37
+      requiredMood: 50
+    - unlocksBuilding: 77
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 31
+  - id: 34
+    name: Sushi world
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 32
+  - id: 35
+    name: Clay mine
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 36
+      requiredMood: 30
+    - unlocksBuilding: 40
+      requiredMood: 70
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 33
+  - id: 36
+    name: Pottery shop
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 81
+      requiredMood: 50
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 34
+  - id: 37
+    name: Boat maker
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 38
+      requiredMood: 40
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 35
+  - id: 38
+    name: Lake
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 77
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 31
+  - id: 39
+    name: Plushie galore
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 36
+  - id: 40
+    name: Glass workshop
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 41
+      requiredMood: 90
+    - unlocksBuilding: 75
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 37
+  - id: 41
+    name: Stoneovsky
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 38
+  - id: 42
+    name: Cow ranch
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 43
+      requiredMood: 50
+    - unlocksBuilding: 45
+      requiredMood: 30
+    - unlocksBuilding: 64
+      requiredMood: 90
+    - unlocksBuilding: 67
+      requiredMood: 90
+    - unlocksBuilding: 70
+      requiredMood: 0
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 39
+  - id: 43
+    name: Cheese shop
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 44
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 40
+  - id: 44
+    name: Rockinos pizza
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 41
+  - id: 45
+    name: Pig ranch
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 46
+      requiredMood: 30
+    - unlocksBuilding: 48
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 42
+  - id: 46
+    name: Leatherworks
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 47
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 43
+  - id: 47
+    name: Louis rockton
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 44
+  - id: 48
+    name: ZOO
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 49
+    name: Stone carver
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 78
+      requiredMood: 0
+    - unlocksBuilding: 84
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 45
+  - id: 50
+    name: Grain field
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 51
+      requiredMood: 50
+    - unlocksBuilding: 78
+      requiredMood: 80
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 46
+  - id: 51
+    name: Rice field
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 34
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 47
+  - id: 52
+    name: Chemistry lab
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 65
+      requiredMood: 90
+    - unlocksBuilding: 66
+      requiredMood: 0
+    - unlocksBuilding: 69
+      requiredMood: 90
+    - unlocksBuilding: 85
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 48
+  - id: 53
+    name: School
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 54
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 54
+    name: Library
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 55
+      requiredMood: 50
+    - unlocksBuilding: 56
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 49
+  - id: 55
+    name: Research lab
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 84
+      requiredMood: 40
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 50
+  - id: 56
+    name: University
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 52
+      requiredMood: 50
+    - unlocksBuilding: 58
+      requiredMood: 90
+    - unlocksBuilding: 59
+      requiredMood: 90
+    - unlocksBuilding: 68
+      requiredMood: 90
+    - unlocksBuilding: 75
+      requiredMood: 70
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 57
+    name: Sherockton hotel
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 58
+      requiredMood: 70
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 58
+    name: Conference hall
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 59
+    name: Research institute
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 73
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 60
+    name: Printing press
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 61
+      requiredMood: 50
+    - unlocksBuilding: 63
+      requiredMood: 30
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 51
+  - id: 61
+    name: Office
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 62
+      requiredMood: 60
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 52
+  - id: 62
+    name: Gym
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 53
+  - id: 63
+    name: Newspaper
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 76
+      requiredMood: 80
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 54
+  - id: 64
+    name: Stone bucks
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 55
+  - id: 65
+    name: Clifal
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 56
+  - id: 66
+    name: Alloys smithy
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 57
+  - id: 67
+    name: Stone & rockers
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 58
+  - id: 68
+    name: IBR
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 59
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 69
+    name: House appliance
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 68
+      requiredMood: 70
+    - unlocksBuilding: 75
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 59
+  - id: 70
+    name: Butcher
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 71
+      requiredMood: 90
+    - unlocksBuilding: 72
+      requiredMood: 80
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 60
+  - id: 71
+    name: MC caverns
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 61
+  - id: 72
+    name: Hot stone grill
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 62
+  - id: 73
+    name: Cosmic programme
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 74
+      requiredMood: 90
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 74
+    name: Rock X
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 75
+    name: Pear
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 63
+  - id: 76
+    name: Rockque
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 64
+  - id: 77
+    name: Aquarium
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 78
+    name: Water mill
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 79
+      requiredMood: 0
+    - unlocksBuilding: 83
+      requiredMood: 40
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 65
+  - id: 79
+    name: Bakery
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 80
+      requiredMood: 80
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 66
+  - id: 80
+    name: Stonemarts
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 67
+  - id: 81
+    name: Restaurant
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies:
+    - unlocksBuilding: 82
+      requiredMood: 70
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 82
+    name: Paleo diet catering
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0
+  - id: 83
+    name: Pastry shop
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 68
+  - id: 84
+    name: Pebbledes
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 69
+  - id: 85
+    name: Roca cola
+    desc: Here goes a description.
+    prefabName: store
+    buildingTime: 2
+    costFood: 0
+    costResearch: 0
+    costFactor: 1
+    availableOnStart: 0
+    dependencies: []
+    producedFood: 0
+    producedResearch: 0
+    producedWare: 0

@@ -1,0 +1,959 @@
+<building>
+  <Sheet1>
+	<_0>
+		<ID>0</ID>
+		<Name>House</Name>
+		<Produces></Produces>
+		<Type>HOUSE</Type>
+		<Prefab>house</Prefab>
+		<SuppSettlers>4</SuppSettlers>
+		<dep1></dep1>
+		<dep1val />
+		<dep2 />
+		<dep2val />
+		<dep3 />
+		<dep3val />
+		<Available>true</Available>
+	</_0>
+    <_1>
+      <ID>1</ID>
+      <Name>Bonfire</Name>
+      <Produces>torch</Produces>
+      <dep1></dep1>
+	  <dep1val></dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+	  <Available>true</Available>
+    </_1>
+    <_2>
+      <ID>2</ID>
+      <Name>Chicken farm</Name>
+      <Produces>feathers</Produces>
+      <dep1>1</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_2>
+    <_3>
+      <ID>3</ID>
+      <Name>Rockstyle pillow and blanket</Name>
+      <Produces>bedsheets</Produces>
+      <dep1>2</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_3>
+    <_4>
+      <ID>4</ID>
+      <Name>CFC</Name>
+      <Produces>chicken nuggets</Produces>
+      <dep1>2</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_4>
+    <_5>
+      <ID>5</ID>
+      <Name>Forest</Name>
+      <Produces>wood</Produces>
+      <dep1 />
+      <dep1val />
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+	  <Available>true</Available>
+    </_5>
+    <_6>
+      <ID>6</ID>
+      <Name>Sawmill</Name>
+      <Produces>boards</Produces>
+      <dep1>5</dep1>
+      <dep1val>40</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_6>
+    <_7>
+      <ID>7</ID>
+      <Name>Toy Store</Name>
+      <Produces>toys</Produces>
+      <dep1>6</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_7>
+    <_8>
+      <ID>8</ID>
+      <Name>Field</Name>
+      <Produces>grass</Produces>
+      <dep1>5</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_8>
+    <_9>
+      <ID>9</ID>
+      <Name>Goat farm</Name>
+      <Produces>wool</Produces>
+      <dep1>8</dep1>
+      <dep1val>10</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_9>
+    <_10>
+      <ID>10</ID>
+      <Name>Vegetable plot</Name>
+      <Produces>vegetables</Produces>
+      <dep1>8</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_10>
+    <_11>
+      <ID>11</ID>
+      <Name>Wheelmaker</Name>
+      <Produces>wheels</Produces>
+      <dep1>6</dep1>
+      <dep1val>40</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_11>
+    <_12>
+      <ID>12</ID>
+      <Name>Sun clock</Name>
+      <Produces />
+      <dep1>1</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_12>
+    <_13>
+      <ID>13</ID>
+      <Name>Rockbike</Name>
+      <Produces>bike</Produces>
+      <dep1>11</dep1>
+      <dep1val>50</dep1val>
+      <dep2>12</dep2>
+      <dep2val>90</dep2val>
+      <dep3 />
+      <dep3val />
+    </_13>
+    <_14>
+      <ID>14</ID>
+      <Name>Weaver</Name>
+      <Produces>cloth</Produces>
+      <dep1>9</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_14>
+    <_15>
+      <ID>15</ID>
+      <Name>Tailor</Name>
+      <Produces>suits</Produces>
+      <dep1>14</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_15>
+    <_16>
+      <ID>16</ID>
+      <Name>Clothes store</Name>
+      <Produces>jeans</Produces>
+      <dep1>15</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_16>
+    <_17>
+      <ID>17</ID>
+      <Name>Cave</Name>
+      <Produces>mushrooms</Produces>
+      <dep1>1</dep1>
+      <dep1val>0</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_17>
+    <_18>
+      <ID>18</ID>
+      <Name>Strone mine</Name>
+      <Produces>stone</Produces>
+      <dep1>17</dep1>
+      <dep1val>10</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_18>
+    <_19>
+      <ID>19</ID>
+      <Name>Stonehedge</Name>
+      <Produces />
+      <dep1>18</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_19>
+    <_20>
+      <ID>20</ID>
+      <Name>Tool maker workshop</Name>
+      <Produces>tools</Produces>
+      <dep1>18</dep1>
+      <dep1val>30</dep1val>
+      <dep2>1</dep2>
+      <dep2val>40</dep2val>
+      <dep3 />
+      <dep3val />
+    </_20>
+    <_21>
+      <ID>21</ID>
+      <Name>Coal mine</Name>
+      <Produces>coal</Produces>
+      <dep1>17</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_21>
+    <_22>
+      <ID>22</ID>
+      <Name>Bronze mine</Name>
+      <Produces>bronze lump</Produces>
+      <dep1>17</dep1>
+      <dep1val>50</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_22>
+    <_23>
+      <ID>23</ID>
+      <Name>Bronze smith</Name>
+      <Produces>bronze bar</Produces>
+      <dep1>22</dep1>
+      <dep1val>0</dep1val>
+      <dep2>21</dep2>
+      <dep2val>0</dep2val>
+      <dep3 />
+      <dep3val />
+    </_23>
+    <_24>
+      <ID>24</ID>
+      <Name>Stable</Name>
+      <Produces>riding dinos</Produces>
+      <dep1>23</dep1>
+      <dep1val>50</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_24>
+    <_25>
+      <ID>25</ID>
+      <Name>Gems mine</Name>
+      <Produces>gems</Produces>
+      <dep1>17</dep1>
+      <dep1val>80</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_25>
+    <_26>
+      <ID>26</ID>
+      <Name>Mint</Name>
+      <Produces>coins</Produces>
+      <dep1>25</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_26>
+    <_27>
+      <ID>27</ID>
+      <Name>Market</Name>
+      <Produces>caravans</Produces>
+      <dep1>24</dep1>
+      <dep1val>50</dep1val>
+      <dep2>26</dep2>
+      <dep2val>10</dep2val>
+      <dep3 />
+      <dep3val />
+    </_27>
+    <_28>
+      <ID>28</ID>
+      <Name>Iron mine</Name>
+      <Produces>iron ore</Produces>
+      <dep1>17</dep1>
+      <dep1val>70</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_28>
+    <_29>
+      <ID>29</ID>
+      <Name>Iron smith</Name>
+      <Produces>iron bars</Produces>
+      <dep1>28</dep1>
+      <dep1val>0</dep1val>
+      <dep2>21</dep2>
+      <dep2val>0</dep2val>
+      <dep3 />
+      <dep3val />
+    </_29>
+    <_30>
+      <ID>30</ID>
+      <Name>Cliffany</Name>
+      <Produces>jewelry</Produces>
+      <dep1>25</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_30>
+    <_31>
+      <ID>31</ID>
+      <Name>Paper maker</Name>
+      <Produces>paper</Produces>
+      <dep1>6</dep1>
+      <dep1val>80</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_31>
+    <_32>
+      <ID>32</ID>
+      <Name>Steel smithy</Name>
+      <Produces>steel bar</Produces>
+      <dep1>29</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_32>
+    <_33>
+      <ID>33</ID>
+      <Name>River</Name>
+      <Produces>fish</Produces>
+      <dep1 />
+      <dep1val />
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+	<Available>true</Available>
+    </_33>
+    <_34>
+      <ID>34</ID>
+      <Name>Sushi world</Name>
+      <Produces>sushi</Produces>
+      <dep1>33</dep1>
+      <dep1val>80</dep1val>
+      <dep2>51</dep2>
+      <dep2val>30</dep2val>
+      <dep3 />
+      <dep3val />
+    </_34>
+    <_35>
+      <ID>35</ID>
+      <Name>Clay mine</Name>
+      <Produces>clay</Produces>
+      <dep1>33</dep1>
+      <dep1val>40</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_35>
+    <_36>
+      <ID>36</ID>
+      <Name>Pottery shop</Name>
+      <Produces>pottery</Produces>
+      <dep1>35</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_36>
+    <_37>
+      <ID>37</ID>
+      <Name>Boat maker</Name>
+      <Produces>boats</Produces>
+      <dep1>6</dep1>
+      <dep1val>50</dep1val>
+      <dep2>33</dep2>
+      <dep2val>50</dep2val>
+      <dep3 />
+      <dep3val />
+    </_37>
+    <_38>
+      <ID>38</ID>
+      <Name>Lake</Name>
+      <Produces>fish</Produces>
+      <dep1>37</dep1>
+      <dep1val>40</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_38>
+    <_39>
+      <ID>39</ID>
+      <Name>Plushie galore</Name>
+      <Produces>plushies</Produces>
+      <dep1>3</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_39>
+    <_40>
+      <ID>40</ID>
+      <Name>Glass workshop</Name>
+      <Produces>glass dishes</Produces>
+      <dep1>35</dep1>
+      <dep1val>70</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_40>
+    <_41>
+      <ID>41</ID>
+      <Name>Stoneovsky</Name>
+      <Produces>crystals</Produces>
+      <dep1>40</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_41>
+    <_42>
+      <ID>42</ID>
+      <Name>Cow ranch</Name>
+      <Produces>milk</Produces>
+      <dep1>9</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_42>
+    <_43>
+      <ID>43</ID>
+      <Name>Cheese shop</Name>
+      <Produces>cheese</Produces>
+      <dep1>42</dep1>
+      <dep1val>50</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_43>
+    <_44>
+      <ID>44</ID>
+      <Name>Rockinos pizza</Name>
+      <Produces>pizza</Produces>
+      <dep1>43</dep1>
+      <dep1val>30</dep1val>
+      <dep2>10</dep2>
+      <dep2val>60</dep2val>
+      <dep3 />
+      <dep3val />
+    </_44>
+    <_45>
+      <ID>45</ID>
+      <Name>Pig ranch</Name>
+      <Produces>leather</Produces>
+      <dep1>42</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_45>
+    <_46>
+      <ID>46</ID>
+      <Name>Leatherworks</Name>
+      <Produces>belts and bags</Produces>
+      <dep1>45</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_46>
+    <_47>
+      <ID>47</ID>
+      <Name>Louis rockton</Name>
+      <Produces>checkered belts and bags</Produces>
+      <dep1>46</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_47>
+    <_48>
+      <ID>48</ID>
+      <Name>ZOO</Name>
+      <Produces />
+      <dep1>45</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_48>
+    <_49>
+      <ID>49</ID>
+      <Name>Stone carver</Name>
+      <Produces>stone wheels</Produces>
+      <dep1>20</dep1>
+      <dep1val>90</dep1val>
+      <dep2>11</dep2>
+      <dep2val>80</dep2val>
+      <dep3 />
+      <dep3val />
+    </_49>
+    <_50>
+      <ID>50</ID>
+      <Name>Grain field</Name>
+      <Produces>grain</Produces>
+      <dep1>8</dep1>
+      <dep1val>10</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_50>
+    <_51>
+      <ID>51</ID>
+      <Name>Rice field</Name>
+      <Produces>rice</Produces>
+      <dep1>50</dep1>
+      <dep1val>50</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_51>
+    <_52>
+      <ID>52</ID>
+      <Name>Chemistry lab</Name>
+      <Produces>reagents</Produces>
+      <dep1>27</dep1>
+      <dep1val>50</dep1val>
+      <dep2>56</dep2>
+      <dep2val>50</dep2val>
+      <dep3 />
+      <dep3val />
+    </_52>
+    <_53>
+      <ID>53</ID>
+      <Name>School</Name>
+      <Produces />
+      <dep1>12</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_53>
+    <_54>
+      <ID>54</ID>
+      <Name>Library</Name>
+      <Produces>scrolls</Produces>
+      <dep1>53</dep1>
+      <dep1val>90</dep1val>
+      <dep2>31</dep2>
+      <dep2val>0</dep2val>
+      <dep3 />
+      <dep3val />
+    </_54>
+    <_55>
+      <ID>55</ID>
+      <Name>Research lab</Name>
+      <Produces>devices</Produces>
+      <dep1>54</dep1>
+      <dep1val>50</dep1val>
+      <dep2>20</dep2>
+      <dep2val>30</dep2val>
+      <dep3 />
+      <dep3val />
+    </_55>
+    <_56>
+      <ID>56</ID>
+      <Name>University</Name>
+      <Produces />
+      <dep1>54</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_56>
+    <_57>
+      <ID>57</ID>
+      <Name>Sherockton hotel</Name>
+      <Produces />
+      <dep1>27</dep1>
+      <dep1val>90</dep1val>
+      <dep2>3</dep2>
+      <dep2val>90</dep2val>
+      <dep3 />
+      <dep3val />
+    </_57>
+    <_58>
+      <ID>58</ID>
+      <Name>Conference hall</Name>
+      <Produces />
+      <dep1>57</dep1>
+      <dep1val>70</dep1val>
+      <dep2>56</dep2>
+      <dep2val>90</dep2val>
+      <dep3 />
+      <dep3val />
+    </_58>
+    <_59>
+      <ID>59</ID>
+      <Name>Research institute</Name>
+      <Produces />
+      <dep1>56</dep1>
+      <dep1val>90</dep1val>
+      <dep2>68</dep2>
+      <dep2val>90</dep2val>
+      <dep3 />
+      <dep3val />
+    </_59>
+    <_60>
+      <ID>60</ID>
+      <Name>Printing press</Name>
+      <Produces>printed books</Produces>
+      <dep1>31</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_60>
+    <_61>
+      <ID>61</ID>
+      <Name>Office</Name>
+      <Produces>piles of paper</Produces>
+      <dep1>60</dep1>
+      <dep1val>50</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_61>
+    <_62>
+      <ID>62</ID>
+      <Name>Gym</Name>
+      <Produces>energetics</Produces>
+      <dep1>61</dep1>
+      <dep1val>60</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_62>
+    <_63>
+      <ID>63</ID>
+      <Name>Newspaper</Name>
+      <Produces>Newspaper</Produces>
+      <dep1>60</dep1>
+      <dep1val>30</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_63>
+    <_64>
+      <ID>64</ID>
+      <Name>Stone bucks</Name>
+      <Produces>coffee</Produces>
+      <dep1>42</dep1>
+      <dep1val>90</dep1val>
+      <dep2>27</dep2>
+      <dep2val>50</dep2val>
+      <dep3 />
+      <dep3val />
+    </_64>
+    <_65>
+      <ID>65</ID>
+      <Name>Clifal</Name>
+      <Produces>kitchen utensils</Produces>
+      <dep1>52</dep1>
+      <dep1val>90</dep1val>
+      <dep2>32</dep2>
+      <dep2val>90</dep2val>
+      <dep3 />
+      <dep3val />
+    </_65>
+    <_66>
+      <ID>66</ID>
+      <Name>Alloys smithy</Name>
+      <Produces>alloys bar</Produces>
+      <dep1>52</dep1>
+      <dep1val>0</dep1val>
+      <dep2>32</dep2>
+      <dep2val>90</dep2val>
+      <dep3 />
+      <dep3val />
+    </_66>
+    <_67>
+      <ID>67</ID>
+      <Name>Stone &amp; rockers</Name>
+      <Produces>ice cream</Produces>
+      <dep1>27</dep1>
+      <dep1val>70</dep1val>
+      <dep2>42</dep2>
+      <dep2val>90</dep2val>
+      <dep3 />
+      <dep3val />
+    </_67>
+    <_68>
+      <ID>68</ID>
+      <Name>IBR</Name>
+      <Produces />
+      <dep1>56</dep1>
+      <dep1val>90</dep1val>
+      <dep2>69</dep2>
+      <dep2val>70</dep2val>
+      <dep3 />
+      <dep3val />
+    </_68>
+    <_69>
+      <ID>69</ID>
+      <Name>House appliance</Name>
+      <Produces>plastic stuff</Produces>
+      <dep1>52</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_69>
+    <_70>
+      <ID>70</ID>
+      <Name>Butcher</Name>
+      <Produces>steaks</Produces>
+      <dep1>42</dep1>
+      <dep1val />
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_70>
+    <_71>
+      <ID>71</ID>
+      <Name>MC caverns</Name>
+      <Produces>burgers</Produces>
+      <dep1>70</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_71>
+    <_72>
+      <ID>72</ID>
+      <Name>Hot stone grill</Name>
+      <Produces>BBQ</Produces>
+      <dep1>70</dep1>
+      <dep1val>80</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_72>
+    <_73>
+      <ID>73</ID>
+      <Name>Cosmic programme</Name>
+      <Produces />
+      <dep1>59</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_73>
+    <_74>
+      <ID>74</ID>
+      <Name>Rock X</Name>
+      <Produces />
+      <dep1>73</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_74>
+    <_75>
+      <ID>75</ID>
+      <Name>Pear</Name>
+      <Produces>phones</Produces>
+      <dep1>69</dep1>
+      <dep1val>90</dep1val>
+      <dep2>56</dep2>
+      <dep2val>70</dep2val>
+      <dep3>40</dep3>
+      <dep3val>90</dep3val>
+    </_75>
+    <_76>
+      <ID>76</ID>
+      <Name>Rockque</Name>
+      <Produces>journal</Produces>
+      <dep1>63</dep1>
+      <dep1val>80</dep1val>
+      <dep2>16</dep2>
+      <dep2val>80</dep2val>
+      <dep3 />
+      <dep3val />
+    </_76>
+    <_77>
+      <ID>77</ID>
+      <Name>Aquarium</Name>
+      <Produces />
+      <dep1>33</dep1>
+      <dep1val>90</dep1val>
+      <dep2>38</dep2>
+      <dep2val>90</dep2val>
+      <dep3 />
+      <dep3val />
+    </_77>
+    <_78>
+      <ID>78</ID>
+      <Name>Water mill</Name>
+      <Produces>flour</Produces>
+      <dep1>50</dep1>
+      <dep1val>80</dep1val>
+      <dep2>49</dep2>
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_78>
+    <_79>
+      <ID>79</ID>
+      <Name>Bakery</Name>
+      <Produces>bread</Produces>
+      <dep1>78</dep1>
+      <dep1val>0</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_79>
+    <_80>
+      <ID>80</ID>
+      <Name>Stonemarts</Name>
+      <Produces>grocery cart</Produces>
+      <dep1>79</dep1>
+      <dep1val>80</dep1val>
+      <dep2>26</dep2>
+      <dep2val>80</dep2val>
+      <dep3 />
+      <dep3val />
+    </_80>
+    <_81>
+      <ID>81</ID>
+      <Name>Restaurant</Name>
+      <Produces />
+      <dep1>10</dep1>
+      <dep1val>50</dep1val>
+      <dep2>36</dep2>
+      <dep2val>50</dep2val>
+      <dep3>2</dep3>
+      <dep3val>30</dep3val>
+    </_81>
+    <_82>
+      <ID>82</ID>
+      <Name>Paleo diet catering</Name>
+      <Produces />
+      <dep1>81</dep1>
+      <dep1val>70</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_82>
+    <_83>
+      <ID>83</ID>
+      <Name>Pastry shop</Name>
+      <Produces>pastry</Produces>
+      <dep1>27</dep1>
+      <dep1val>30</dep1val>
+      <dep2>78</dep2>
+      <dep2val>40</dep2val>
+      <dep3 />
+      <dep3val />
+    </_83>
+    <_84>
+      <ID>84</ID>
+      <Name>Pebbledes</Name>
+      <Produces>cars</Produces>
+      <dep1>49</dep1>
+      <dep1val>90</dep1val>
+      <dep2>55</dep2>
+      <dep2val>40</dep2val>
+      <dep3 />
+      <dep3val />
+    </_84>
+    <_85>
+      <ID>85</ID>
+      <Name>Roca cola</Name>
+      <Produces />
+      <dep1>52</dep1>
+      <dep1val>90</dep1val>
+      <dep2 />
+      <dep2val />
+      <dep3 />
+      <dep3val />
+    </_85>
+   
+  </Sheet1>
+</building>
+
